@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Food Distribution System{% endblock %}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <style>
+        /* Custom styles for agriculture colors */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0; /* Remove default margin */
+        }
+        footer {
+            background-color: #4CAF50; /* Green color representing agriculture */
+            color: white;
+            padding: 10px 0;
+        }
+        .navbar {
+            background-color: #8BC34A; /* Lighter green for the navbar */
+        }
+        .navbar a {
+            color: white !important; /* White text for links */
+        }
+        .navbar a:hover {
+            color: #C8E6C9 !important; /* Lighter shade on hover */
+        }
+        .container {
+            flex-grow: 1; /* This allows the container to grow and fill the space */
+        }
+        .alert {
+            border-radius: 5px; /* Rounded corners for alerts */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="{{ url_for('main.home') }}">Food Distribution</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('main.home') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('main.register') }}">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('main.login') }}">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('main.product_list') }}">Products</a> <!-- Updated link to product list -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('main.cart') }}">Cart</a> <!-- Link to view cart -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('main.profile') }}">Profile</a> <!-- Link to user profile -->
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        {% with messages = get_flashed_messages(with_categories=True) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer class="text-center mt-4">
+        <p>&copy; 2024 Food Distribution System</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script> <!-- Include main.js -->
+</body>
+</html>

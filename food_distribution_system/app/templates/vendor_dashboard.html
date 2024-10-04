@@ -1,0 +1,36 @@
+{% extends 'vendor_base.html' %}
+
+{% block title %}Vendor Dashboard{% endblock %}
+
+{% block content %}
+    <h1>Welcome, {{ current_user.username }}!</h1>
+    <h2>Your Products</h2>
+    
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Quantity Available</th>
+                <th>Add to Cart</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for product in products %}
+                <tr>
+                    <td>{{ product.name }}</td>
+                    <td>{{ product.description }}</td>
+                    <td>${{ product.price }}</td>
+                    <td>{{ product.quantity_available }}</td>
+                    <td>
+                        <form action="{{ url_for('vendor.add_to_cart', product_id=product.id) }}" method="POST">
+                            <input type="number" name="quantity" min="1" max="{{ product.quantity_available }}" placeholder="Quantity" required>
+                            <button type="submit" class="btn btn-primary">Add to Cart</button>
+                        </form>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

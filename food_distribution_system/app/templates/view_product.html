@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}View Product{% endblock %}
+
+{% block content %}
+    <h2>Product Details</h2>
+    <div class="product-details">
+        <p><strong>Name:</strong> {{ product.name }}</p>
+        <p><strong>Description:</strong> {{ product.description }}</p>
+        <p><strong>Price:</strong> ${{ product.price }}</p>
+        <p><strong>Quantity Available:</strong> {{ product.quantity_available }}</p>
+    </div>
+    
+    <a href="{{ url_for('farmer.edit_product', product_id=product.id) }}" class="btn btn-warning">Edit Product</a>
+    <form action="{{ url_for('farmer.delete_product', product_id=product.id) }}" method="POST" style="display:inline;">
+        <button type="submit" class="btn btn-danger">Delete Product</button>
+    </form>
+    <br><br>
+    <a href="{{ url_for('farmer.dashboard') }}" class="btn btn-secondary">Back to Dashboard</a>
+{% endblock %}

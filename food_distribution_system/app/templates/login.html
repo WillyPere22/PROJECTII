@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<h2>User Login</h2>
+<form method="POST">
+    {{ form.hidden_tag() }}  <!-- Include CSRF token -->
+    <div class="form-group">
+        <label for="email">Email address</label>
+        {{ form.email(class="form-control", id="email", required=True) }}  <!-- Use Flask-WTF form field -->
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        {{ form.password(class="form-control", id="password", required=True) }}  <!-- Use Flask-WTF form field -->
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
+{% endblock %}

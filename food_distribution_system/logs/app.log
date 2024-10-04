@@ -1,0 +1,138 @@
+2024-10-04 18:57:41,834 - INFO - User login form accessed
+2024-10-04 18:58:39,841 - INFO - Home page accessed
+2024-10-04 18:58:57,508 - INFO - User login form accessed
+2024-10-04 18:59:21,897 - INFO - User login form accessed
+2024-10-04 18:59:26,948 - INFO - Fetched 0 products
+2024-10-04 18:59:36,151 - INFO - User registration form accessed
+2024-10-04 18:59:40,369 - INFO - User login form accessed
+2024-10-04 19:05:17,684 - INFO - User login form accessed
+2024-10-04 19:07:39,479 - WARNING - Login form validation failed: {'csrf_token': ['The CSRF token is missing.']}
+2024-10-04 19:07:39,479 - INFO - User login form accessed
+2024-10-04 19:07:44,115 - WARNING - Login form validation failed: {'csrf_token': ['The CSRF token is missing.']}
+2024-10-04 19:07:44,123 - INFO - User login form accessed
+2024-10-04 19:07:46,778 - ERROR - Error during login: 'User' object has no attribute 'is_active'
+2024-10-04 19:07:46,778 - INFO - User login form accessed
+2024-10-04 19:12:04,387 - INFO - User logged in: mos with role: farmer
+2024-10-04 19:12:04,387 - INFO - Redirecting farmer mos to the farmer dashboard
+2024-10-04 19:12:04,387 - ERROR - Error during login: Could not build url for endpoint 'farmer.dashboard'. Did you mean 'main.update_farmer_profile' instead?
+2024-10-04 19:12:04,408 - INFO - User login form accessed
+2024-10-04 19:14:49,079 - INFO - User mos attempted to log in again
+2024-10-04 19:14:49,079 - INFO - Home page accessed
+2024-10-04 19:14:51,374 - INFO - User mos attempted to log in again
+2024-10-04 19:14:51,381 - INFO - Home page accessed
+2024-10-04 19:14:54,343 - INFO - User mos attempted to log in again
+2024-10-04 19:14:54,347 - INFO - Home page accessed
+2024-10-04 19:14:55,977 - INFO - User mos attempted to log in again
+2024-10-04 19:14:55,980 - INFO - Home page accessed
+2024-10-04 19:14:59,791 - INFO - Authenticated user mos attempted to register again
+2024-10-04 19:14:59,798 - INFO - Home page accessed
+2024-10-04 19:20:24,235 - INFO - Home page accessed
+2024-10-04 19:20:26,647 - INFO - Home page accessed
+2024-10-04 19:20:28,475 - INFO - Authenticated user mos attempted to register again
+2024-10-04 19:20:28,485 - INFO - Home page accessed
+2024-10-04 19:20:30,294 - INFO - User mos attempted to log in again
+2024-10-04 19:20:30,304 - INFO - Home page accessed
+2024-10-04 19:20:53,405 - INFO - Home page accessed
+2024-10-04 19:20:56,807 - INFO - User mos attempted to log in again
+2024-10-04 19:20:56,820 - INFO - Home page accessed
+2024-10-04 19:20:58,945 - INFO - Fetched 0 products
+2024-10-04 19:21:02,824 - INFO - Profile accessed for user mos
+2024-10-04 19:21:22,516 - INFO - Profile accessed for user mos
+2024-10-04 19:21:38,052 - INFO - Home page accessed
+2024-10-04 19:21:41,342 - WARNING - Login form validation failed: {}
+2024-10-04 19:21:41,344 - INFO - User login form accessed
+2024-10-04 19:21:46,878 - INFO - User logged in: mos with role: farmer
+2024-10-04 19:21:46,879 - INFO - Redirecting farmer mos to the farmer dashboard
+2024-10-04 19:21:46,881 - ERROR - Error during login: Could not build url for endpoint 'main.farmer_dashboard'. Did you mean 'main.feedback' instead?
+2024-10-04 19:21:46,882 - INFO - User login form accessed
+2024-10-04 19:27:02,490 - INFO - User mos attempted to log in again
+2024-10-04 19:27:02,518 - INFO - Home page accessed
+2024-10-04 19:27:07,362 - INFO - Fetched 0 products
+2024-10-04 19:27:30,887 - INFO - Home page accessed
+2024-10-04 19:27:33,862 - WARNING - Login form validation failed: {}
+2024-10-04 19:27:33,862 - INFO - User login form accessed
+2024-10-04 19:27:36,883 - INFO - User logged in: mos with role: farmer
+2024-10-04 19:27:36,883 - INFO - Redirecting farmer mos to the farmer dashboard
+2024-10-04 19:27:36,916 - ERROR - Error accessing farmer dashboard: 'NoneType' object has no attribute 'id'
+2024-10-04 19:27:36,927 - INFO - Home page accessed
+2024-10-04 19:30:14,753 - INFO - Home page accessed
+2024-10-04 19:30:18,597 - INFO - User mos attempted to log in again
+2024-10-04 19:30:18,609 - INFO - Home page accessed
+2024-10-04 19:30:32,873 - INFO - Home page accessed
+2024-10-04 19:30:35,214 - WARNING - Login form validation failed: {}
+2024-10-04 19:30:35,217 - INFO - User login form accessed
+2024-10-04 19:30:38,316 - INFO - User logged in: mos with role: farmer
+2024-10-04 19:30:38,329 - INFO - Redirecting farmer mos to the farmer dashboard
+2024-10-04 19:30:38,350 - ERROR - No farmer profile found for user mos.
+2024-10-04 19:30:38,369 - INFO - Home page accessed
+2024-10-04 19:35:43,571 - INFO - Home page accessed
+2024-10-04 19:35:46,302 - WARNING - Login form validation failed: {}
+2024-10-04 19:35:46,317 - INFO - User login form accessed
+2024-10-04 19:35:52,672 - INFO - User registration form accessed
+2024-10-04 19:36:27,820 - INFO - User registration form accessed
+2024-10-04 19:37:57,429 - INFO - User registration form accessed
+2024-10-04 19:38:11,841 - INFO - User registration form accessed
+2024-10-04 19:39:43,863 - INFO - User registration form accessed
+2024-10-04 19:40:47,814 - INFO - New user registered: most
+2024-10-04 19:40:47,831 - WARNING - Login form validation failed: {}
+2024-10-04 19:40:47,831 - INFO - User login form accessed
+2024-10-04 19:41:10,564 - INFO - User logged in: most with role: farmer
+2024-10-04 19:41:10,573 - INFO - Redirecting farmer most to the farmer dashboard
+2024-10-04 19:41:10,625 - INFO - Farmer dashboard accessed for user most.
+2024-10-04 19:41:11,154 - ERROR - Error accessing farmer dashboard: Could not build url for endpoint 'farmer.dashboard'. Did you mean 'main.farmer_dashboard' instead?
+2024-10-04 19:41:11,174 - INFO - Home page accessed
+2024-10-04 19:43:01,075 - INFO - User most attempted to log in again
+2024-10-04 19:43:01,087 - INFO - Home page accessed
+2024-10-04 19:43:15,131 - INFO - Home page accessed
+2024-10-04 19:43:17,787 - WARNING - Login form validation failed: {}
+2024-10-04 19:43:17,788 - INFO - User login form accessed
+2024-10-04 19:43:25,903 - INFO - User logged in: most with role: farmer
+2024-10-04 19:43:25,903 - INFO - Redirecting farmer most to the farmer dashboard
+2024-10-04 19:43:25,939 - INFO - Farmer dashboard accessed for user most.
+2024-10-04 19:43:25,972 - ERROR - Error accessing farmer dashboard: Could not build url for endpoint 'farmer.dashboard'. Did you mean 'main.farmer_dashboard' instead?
+2024-10-04 19:43:25,988 - INFO - Home page accessed
+2024-10-04 19:44:28,766 - INFO - Home page accessed
+2024-10-04 19:44:31,009 - WARNING - Login form validation failed: {}
+2024-10-04 19:44:31,023 - INFO - User login form accessed
+2024-10-04 19:44:39,535 - INFO - User logged in: most with role: farmer
+2024-10-04 19:44:39,535 - INFO - Redirecting farmer most to the farmer dashboard
+2024-10-04 19:44:39,578 - INFO - Farmer dashboard accessed for user most.
+2024-10-04 19:44:39,800 - ERROR - Error accessing farmer dashboard: Could not build url for endpoint 'main.farmer_add_product'. Did you mean 'main.order_product' instead?
+2024-10-04 19:44:39,826 - INFO - Home page accessed
+2024-10-04 19:52:10,845 - INFO - Home page accessed
+2024-10-04 19:52:14,068 - WARNING - Login form validation failed: {}
+2024-10-04 19:52:14,068 - INFO - User login form accessed
+2024-10-04 19:52:22,975 - INFO - User logged in: most with role: farmer
+2024-10-04 19:52:22,975 - INFO - Redirecting farmer most to the farmer dashboard
+2024-10-04 19:52:23,002 - INFO - Farmer dashboard accessed for user most.
+2024-10-04 19:52:23,052 - ERROR - Error accessing farmer dashboard: Could not build url for endpoint 'farmer.view_products'. Did you mean 'main.view_product' instead?
+2024-10-04 19:52:23,074 - INFO - Home page accessed
+2024-10-04 19:53:44,119 - INFO - Home page accessed
+2024-10-04 19:53:46,418 - WARNING - Login form validation failed: {}
+2024-10-04 19:53:46,424 - INFO - User login form accessed
+2024-10-04 19:54:53,663 - INFO - User logged in: most with role: farmer
+2024-10-04 19:54:53,678 - INFO - Redirecting farmer most to the farmer dashboard
+2024-10-04 19:54:53,713 - INFO - Farmer dashboard accessed for user most.
+2024-10-04 19:54:54,113 - ERROR - Error accessing farmer dashboard: Could not build url for endpoint 'main.view_products'. Did you mean 'main.view_product' instead?
+2024-10-04 19:54:54,136 - INFO - Home page accessed
+2024-10-04 19:56:14,858 - INFO - Home page accessed
+2024-10-04 19:56:17,571 - WARNING - Login form validation failed: {}
+2024-10-04 19:56:17,571 - INFO - User login form accessed
+2024-10-04 19:56:25,356 - INFO - User logged in: most with role: farmer
+2024-10-04 19:56:25,356 - INFO - Redirecting farmer most to the farmer dashboard
+2024-10-04 19:56:25,394 - INFO - Farmer dashboard accessed for user most.
+2024-10-04 19:56:25,610 - ERROR - Error accessing farmer dashboard: Could not build url for endpoint 'main.view_product'. Did you forget to specify values ['product_id']?
+2024-10-04 19:56:25,628 - INFO - Home page accessed
+2024-10-04 19:59:48,221 - INFO - Home page accessed
+2024-10-04 19:59:50,176 - WARNING - Login form validation failed: {}
+2024-10-04 19:59:50,176 - INFO - User login form accessed
+2024-10-04 19:59:57,534 - INFO - User logged in: most with role: farmer
+2024-10-04 19:59:57,534 - INFO - Redirecting farmer most to the farmer dashboard
+2024-10-04 19:59:57,569 - INFO - Farmer dashboard accessed for user most.
+2024-10-04 19:59:57,804 - ERROR - Error accessing farmer dashboard: Could not build url for endpoint 'farmer.new_product'. Did you mean 'main.new_product' instead?
+2024-10-04 19:59:57,822 - INFO - Home page accessed
+2024-10-04 20:02:16,267 - INFO - Home page accessed
+2024-10-04 20:02:19,455 - WARNING - Login form validation failed: {}
+2024-10-04 20:02:19,455 - INFO - User login form accessed
+2024-10-04 20:02:27,337 - INFO - User logged in: most with role: farmer
+2024-10-04 20:02:27,345 - INFO - Redirecting farmer most to the farmer dashboard

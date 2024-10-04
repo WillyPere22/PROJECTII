@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h1>Welcome to the Food Distribution System</h1>
+<p>This platform connects local farmers directly with vendors for easy access to fresh produce.</p>
+<a href="{{ url_for('main.product_list') }}" class="btn btn-primary">View Products</a> <!-- Updated link to product list -->
+{% endblock %}
